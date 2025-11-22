@@ -1,0 +1,11 @@
+# Ignorar claves secretas
+config.py
+
+# Ignorar carpeta de la máquina virtual (pesa mucho)
+.vagrant/
+.vagrant
+
+# Ignorar archivos temporales y logs
+__pycache__/
+*.pyc
+cron.log
